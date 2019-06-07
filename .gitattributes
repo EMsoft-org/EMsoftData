@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.ctf binary
+*.ang binary
+*.dream3d binary
+*.bat text eol=crlf
+*.scpt binary
+*.h5 binary
+
