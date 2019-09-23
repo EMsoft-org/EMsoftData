@@ -29,7 +29,7 @@
 ! number of top matches to keep from the dot product results
  nnk = 50,
 ! number of top matches to use for orientation averaging (<nnk)
- nnav =  20,
+ nnav = 20,
 ! number of top matches to use for Orientation Similarity Map computation (<nnk)
  nosm = 20,
 ! number of top matches to use for Indexing Success Map computation (<nnk)
