@@ -1,0 +1,137 @@
+/DREAM3DProj.includes
+CMakeLists.txt.user
+/wiki/
+/Build/
+/Build-ninja/
+/Build-Xcode/
+/zRel/
+/CleanBuild/
+.cproject
+.project
+/clang/
+/xcode/
+/x64/
+/i386/
+/qtcreator/
+/Build2/
+/QT_BUILD/
+Support/Scripts/GMT/gmt.history
+.settings
+.floo
+/ninja/
+/linux/
+.idea
+/Debug/
+/Mathematica/
+.ctags
+.vscode
+/ExternalProjects
+UpdateCopyrightRange.pro
+UpdateEMSphInxCopyrightStatement.pro
+fixf90
+fixC
+resources/EMSphInx.wisdom
+Source/pyEMsoft/__pycache__
+Source/pyEMsoft/*.f90
+Source/pyEMsoft/.f2py_f2cmap
+Source/pyEMsoft/source
+Source/pyEMsoft/docs/_template/
+Source/pyEMsoft/docs/_static/
+Source/pyEMsoft/docs/_build/
+
+
+/EMSphInx/
+
+/IDL/pro/*.sav
+*.bak
+
+# ignore object code
+*.o
+
+/project-file.md
+
+# ignore pro.swp files
+*.pro.swp
+*.swp
+
+**/*.*~
+
+/Support/SDK_Build_Scripts/OSX_Build_Scripts/SDK_Configuration.conf
+
+*.sav
+*.psd
+*.save
+*.nb
+*.pl
+
+/MRC/
+/STUFF/
+/testfolder/
+/IFORT/
+/examples/
+/FORD/
+/DOxygen/
+
+IDL/**/*.sav
+IDL/pro/template
+IDL/pro_todo
+IDL/various
+
+# ignore OS files
+.DS_Store
+.DS_Store?
+
+*.atools
+
+# libs, makefiles, editor backup files, etc
+*.a
+*.amake
+*.amake.bk
+*.f90.bak
+
+# DOxygen files
+/doc/
+/dot/
+
+# IDL Virtual Machine
+/IDL/VMapps/
+/IDL/VMappsPC/
+
+# figures for manuals
+*.tiff
+*.jpg
+*.ai
+
+# latex-generated files
+*.dvi
+*.bbl
+*.sty
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.run.xml
+*.synctex.gz
+*.toc
+*.pdf
+*.out
+*.synctex.gz(busy)
+
+# rksuite
+/src/rksuite_90/
+
+# IDL VM
+
+#lib030414 and other temp test folders #PGC
+
+# .mod’s and .o’s
+*.mod
+*.o
+/IDL/README.txt
+/resources/*.pro
+/resources/EMSphInx.wisdom
+/src/local.f90
+/src_programs/*.c
+/src_programs/go*
+/manuals_todo/Eshelby
