@@ -65,6 +65,8 @@
 ! pattern center coordinates in units of pixels
  xpc = 0.16213,
  ypc = 12.88351,
+ numsx = 60,
+ numsy = 60,
 ! angle between normal of sample and detector
  omega = 0.0,
 ! minimum and maximum energy to use for interpolation [keV]
