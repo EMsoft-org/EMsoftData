@@ -39,9 +39,9 @@
 ! to use a custom mask, enter the mask filename here; leave undefined for standard mask option
  maskfile = 'undefined',
 ! mask or not
- maskpattern = 'n',
+ maskpattern = 'y',
 ! mask radius (in pixels, AFTER application of the binning operation)
- maskradius = 240,
+ maskradius = 30,
 ! hi pass filter w parameter; 0.05 is a reasonable value
  hipassw = 0.125,
 ! number of regions for adaptive histogram equalization
@@ -54,17 +54,17 @@
 ! number of cubochoric points to generate list of orientations
  ncubochoric = 100,
 ! distance between scintillator and illumination point [microns]
- L = 15767.7,
+ L = 16090.383,
 ! tilt angle of the camera (positive below horizontal, [degrees])
  thetac = 10.0,
 ! CCD pixel size on the scintillator surface [microns]
- delta = 59.2,
+ delta = 470.54,
 ! number of CCD pixels along x and y
- numsx = 480,
- numsy = 480,
+ exptnumsx = 60,
+ exptnumsy = 60,
 ! pattern center coordinates in units of pixels
- xpc = 3.4848,
- ypc = 114.2016,
+ xpc = 0.16213,
+ ypc = 12.88351,
 ! angle between normal of sample and detector
  omega = 0.0,
 ! minimum and maximum energy to use for interpolation [keV]
@@ -79,7 +79,7 @@
 ! beam dwell time [micro s]
  dwelltime = 100.0,
 ! binning mode (1, 2, 4, or 8)
- binning = 8,
+ binning = 1,
 ! intensity scaling mode 'not' = no scaling, 'lin' = linear, 'gam' = gamma correction
  scalingmode = 'gam',
 ! gamma correction factor
